@@ -1,0 +1,9 @@
+.header__logo {
+  line-height: 0;
+}
+@media (max-width:320px) {
+  .header__logo {
+   max-width: 142px;
+   min-height: 42px;
+  }
+}

@@ -1,0 +1,38 @@
+.cover {
+  max-width: 1184px;
+  margin: 0 auto 92px auto;
+  position: relative;
+  font-size: 0;
+}
+@media (max-width:1024px) {
+  .cover{
+    max-width: 1024px;
+  }
+}
+@media (max-width:768px) {
+  .cover{
+    max-width: 768px;
+    margin: 0 auto 88px auto;
+  }
+}
+@media (max-width:320px) {
+  .cover{
+    max-width: 320px;
+    margin: 0 auto 64px auto;
+  }
+}
+
+.cover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background-color 0.5s ease;
+}
+.cover:hover::before {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
