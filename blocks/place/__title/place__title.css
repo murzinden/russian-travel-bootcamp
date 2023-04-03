@@ -18,6 +18,6 @@
     font-size: 32px;
     line-height: 1.09;
     max-width: 288px;
-    padding-left: 20px;
+    padding: 0 16px;
   }
 }

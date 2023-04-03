@@ -5,7 +5,10 @@
   font-size: 72px;
   line-height: 1.06;
   color: #fff;
+  text-align: center;
+  z-index: 1;
 }
+
 @media (max-width:320px) {
   .cover__title {
     font-size: 32px;

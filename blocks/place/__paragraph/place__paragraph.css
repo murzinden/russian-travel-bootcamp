@@ -12,15 +12,10 @@
 }
 @media (max-width:320px) {
   .place__paragraph{
-    max-width: 281px;
+    max-width: 288px;
     padding: 0 16px;
   }
 }
 .place__paragraph:not(:last-child) {
   margin: 0 0 26px 0;
-}
-@media (max-width:768px) {
-  .place__paragraph:not(:last-child){
-    margin: 0 0 25px 0;
-  }
 }

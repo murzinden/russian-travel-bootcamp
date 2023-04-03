@@ -5,6 +5,8 @@
   font-size: 18px;
   line-height: 1.22;
   color: #fff;
+  text-align: center;
+  z-index: 1;
 }
 @media (max-width:320px) {
   .cover__subtitle {

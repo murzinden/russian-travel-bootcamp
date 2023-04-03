@@ -1,10 +1,40 @@
 .cover__wrapper {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  min-height: 740px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../../../images/cover-background.jpg) center / cover no-repeat;
+  text-decoration: none;
+}
+@media (max-width:1024px) {
+  .cover__wrapper {
+    min-height: 640px;
+  }
+}
+@media (max-width:768px) {
+  .cover__wrapper {
+    min-height: 480px;
+  }
+}
+@media (max-width:320px) {
+  .cover__wrapper {
+    min-height: 200px;
+  }
+}
+.cover__wrapper::before {
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  background-color: rgba(42, 44, 47, 0.3);
+  transition: background-color 0.5s ease;
+}
+.cover__wrapper:hover::before {
+  background-color: rgba(42, 44, 47, 0.8);
 }
