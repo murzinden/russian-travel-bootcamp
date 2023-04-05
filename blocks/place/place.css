@@ -23,7 +23,6 @@
     grid-template-columns: 320px;
     row-gap: 32px;
     grid-template-areas: "title" "website" "image" "text";
-    /* отцентровал */
     justify-content: center;
   }
 }
