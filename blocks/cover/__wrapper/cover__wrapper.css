@@ -20,11 +20,16 @@
     min-height: 480px;
   }
 }
-@media (max-width:320px) {
+@media (max-width:520px) {
   .cover__wrapper {
     min-height: 200px;
   }
 }
+/* @media (max-width:320px) {
+  .cover__wrapper {
+    min-height: 200px;
+  }
+} */
 .cover__wrapper::before {
   content: '';
   position: absolute;

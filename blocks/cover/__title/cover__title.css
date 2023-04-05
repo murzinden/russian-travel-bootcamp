@@ -9,7 +9,7 @@
   z-index: 1;
 }
 
-@media (max-width:320px) {
+@media (max-width:520px) {
   .cover__title {
     font-size: 32px;
     line-height: 1.09;
@@ -17,3 +17,13 @@
     margin: 0 0 16px 0;
   }
 }
+
+
+/* @media (max-width:320px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
+    max-width: 250px;
+    margin: 0 0 16px 0;
+  }
+} */

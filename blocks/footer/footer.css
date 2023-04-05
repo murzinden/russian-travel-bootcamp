@@ -16,10 +16,18 @@
     max-width: 720px;
   }
 }
-@media (max-width:320px) {
+@media (max-width:690px) {
   .footer{
     max-width: 288px;
     flex-direction: column;
     align-items: start;
   }
 }
+
+/* @media (max-width:320px) {
+  .footer{
+    max-width: 288px;
+    flex-direction: column;
+    align-items: start;
+  }
+} */

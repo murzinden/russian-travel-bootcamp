@@ -17,13 +17,23 @@
     column-gap: 28px;
   }
 }
-@media (max-width:320px) {
+
+@media (max-width:690px) {
+  .place{
+    grid-template-columns: 320px;
+    row-gap: 32px;
+    grid-template-areas: "title" "website" "image" "text";
+    /* отцентровал */
+    justify-content: center;
+  }
+}
+/* @media (max-width:320px) {
   .place{
     grid-template-columns: 320px;
     row-gap: 32px;
     grid-template-areas: "title" "website" "image" "text";
   }
-}
+} */
 .place:not(:last-child) {
   padding-bottom: 73px;
 }

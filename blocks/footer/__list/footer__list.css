@@ -3,9 +3,18 @@
   margin: 0;
   padding-left: 0;
 }
-@media (max-width:320px) {
+
+@media (max-width:690px) {
   .footer__list {
     flex-direction: column;
     margin-bottom: 48px;
   }
 }
+
+
+/* @media (max-width:320px) {
+  .footer__list {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+} */

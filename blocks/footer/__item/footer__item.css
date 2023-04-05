@@ -4,8 +4,14 @@
 .footer__item:not(:last-child) {
   margin-right: 18px;
 }
-@media (max-width:320px) {
+@media (max-width:690px) {
   .footer__item:not(:last-child){
     margin: 0 0 32px 0;
   }
 }
+
+/* @media (max-width:320px) {
+  .footer__item:not(:last-child){
+    margin: 0 0 32px 0;
+  }
+} */
